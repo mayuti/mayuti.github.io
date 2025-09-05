@@ -3,7 +3,7 @@
 body {
   background: #0d1117;
   color: #e6edf3;
-  font-family: "Segoe UI", Roboto, sans-serif;
+  font-family: "Ubuntu", "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -20,6 +20,7 @@ header h1 {
   margin: 0;
   color: #58a6ff; /* la luz en la oscuridad */
   letter-spacing: 2px;
+  font-family: "Ubuntu", sans-serif;
 }
 header p {
   font-size: 1.3rem;
