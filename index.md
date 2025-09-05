@@ -97,11 +97,11 @@ footer {
 <section id="about">
   <h2>🌐 About ITUYAM</h2>
 
-  **🇪🇸 Español**  
+  🇪🇸 Español  
   ITUYAM surge de la idea de **Inteligencia y Automatización Unificada en IT**.  
   Nuestro enfoque integra la capacidad de analizar, correlacionar y automatizar procesos dentro de una misma plataforma, generando confianza técnica y eficiencia operativa.  
 
-  **🇬🇧 English**  
+  🇬🇧 English  
   ITUYAM stands for **IT Unified Automation Management**.  
   Our approach brings together intelligence, correlation, and automation into a single framework, delivering technical reliability and operational efficiency.
 </section>
