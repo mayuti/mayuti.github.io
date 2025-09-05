@@ -1,8 +1,3 @@
----
-title: ITUYAM
-description: IT Unified Automation Management
----
-
 <style>
 /* 🌑 Dark Tech Palette */
 body {
