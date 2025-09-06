@@ -30,9 +30,12 @@
     header h1 {
       font-size: 4rem;
       margin: 0;
-      color: #58a6ff;
       letter-spacing: 2px;
+      font-family: "Ubuntu", sans-serif;
     }
+    .itu { color: #e6edf3; }
+    .yam { color: #e6edf3; }
+    .y-letter { color: #58a6ff; } /* Y destacada */
     header p {
       font-size: 1.3rem;
       margin: 15px 0 0;
@@ -100,17 +103,11 @@
       margin-bottom: 30px;
     }
     .founder-card {
-      display: flex;
-      align-items: center;
       background: #161b22;
       border: 1px solid #30363d;
       border-radius: 8px;
       padding: 20px;
-      gap: 20px;
-    }
-    .founder-icon {
-      font-size: 3rem;
-      color: #58a6ff;
+      text-align: center;
     }
     .founder-text h3 {
       margin: 0;
@@ -119,7 +116,6 @@
     }
     .founder-text p {
       margin: 8px 0;
-      text-align: left;
     }
 
     /* Footer */
@@ -137,7 +133,7 @@
 
   <!-- Hero -->
   <header>
-    <h1>ITUYAM</h1>
+    <h1><span class="itu">ITU</span><span class="y-letter">Y</span><span class="yam">AM</span></h1>
     <p>IT Unified Automation Management</p>
     <p><em>Gestión Unificada de Inteligencia y Automatización en IT</em></p>
   </header>
@@ -173,23 +169,30 @@
   <!-- Contact -->
   <section class="contact">
     <h2>📬 Contact</h2>
-    <p>¿Querés más información o ponerte en contacto con nosotros?</p>
+    <p>🇪🇸 ¿Querés más información o ponerte en contacto con nosotros?<br>
+       🇬🇧 Do you want more information or get in touch with us?</p>
     <p>✉️ <a href="mailto:contact@ituyam.com">contact@ituyam.com</a></p>
   </section>
 
   <!-- Founder -->
   <section class="founder">
-    <h2>👤 Fundador</h2>
+    <h2>👤 Fundador / Founder</h2>
     <div class="founder-card">
-      <div class="founder-icon">👨‍💻</div>
       <div class="founder-text">
         <h3>Cristian Mayuti</h3>
-        <p><strong>Responsable técnico de ITUYAM</strong></p>
-        <p>Técnico Universitario en Software Libre · Licenciado en Tecnologías Digitales · 
+        <p><strong>🇪🇸 Responsable técnico de ITUYAM</strong><br>
+        Técnico Universitario en Software Libre · Licenciado en Tecnologías Digitales · 
         Posgrado en Especialización en Sistemas Embebidos.</p>
         <p>Con una sólida base en software libre, tecnologías digitales y sistemas embebidos, 
         desarrollo soluciones de automatización e inteligencia aplicadas a ITUYAM, 
         transmitiendo confianza técnica y visión innovadora.</p>
+        <hr style="border: 0; border-top: 1px solid #30363d; margin: 20px 0;">
+        <p><strong>🇬🇧 Technical Lead at ITUYAM</strong><br>
+        Degree in Free Software · Bachelor in Digital Technologies · 
+        Postgraduate Specialization in Embedded Systems.</p>
+        <p>With a solid foundation in free software, digital technologies, and embedded systems, 
+        I develop automation and intelligence solutions for ITUYAM, 
+        delivering technical reliability and innovative vision.</p>
       </div>
     </div>
   </section>
