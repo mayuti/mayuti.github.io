@@ -235,3 +235,22 @@ footer {
   text-decoration: underline;
 }
 
+.navbar {
+  background: #0a0f1c;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-logo {
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.logo-text {
+  color: #00aaff;
+  font-weight: 700;
+  font-size: 1.4em;
+  vertical-align: middle;
+}
+
